@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="sheetName" value="LoginDetails"/>
+  <test name="test(failed)">
+    <parameter name="sheetName" value="LoginDetails"/>
+    <classes>
+      <class name="scripts.Dei_main">
+        <methods>
+          <include name="atcatValidation" invocation-numbers="0"/>
+          <include name="Open"/>
+        </methods>
+      </class> <!-- scripts.Dei_main -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
