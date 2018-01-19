@@ -140,7 +140,7 @@ public class IAPmain {
 			else if(module.equalsIgnoreCase("Exception"))
 			{
 				CTask = em.createException(driver, userName,passWord,RITM,Exception_Rejection,Reason,Exception_comments,logger);
-				System.out.println(CTask.size());
+				
 			}
 			else if (module.equalsIgnoreCase("addDelegate")) {
 				gm.logInfo(logger, "Adding Delegate");
