@@ -1049,11 +1049,9 @@ public class GenericMethods2 {
 
 				String failureImageFileName =  new SimpleDateFormat("MM-dd-yyyy_HH-ss").format(new GregorianCalendar().getTime())+ ".png"; 
 				File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-				FileUtils.copyFile(scrFile, new File("Screenshot\\"+failureImageFileName));
 				FileUtils.copyFile(scrFile, new File("./Extent_Reports/"+failureImageFileName));
-                s1 =  failureImageFileName ;                                     
-
-				s1 =  userDirector +"\\Screenshot\\" + failureImageFileName ;							
+                s1 =  failureImageFileName ;     
+				//s1 =  userDirector +"\\Screenshot\\" + failureImageFileName ;							
 
 			} catch (IOException e1) {
 				e1.printStackTrace();

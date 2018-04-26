@@ -147,7 +147,7 @@ public class SubmitFormMethods
 		}
 		if(gm.verifyObejctExistence(driver, SubmitFormPage.successMsg, "RITM Success message", logger))
 		{
-			gm.logPass(logger, "The RITM has been created successfully. The success message is also displayed");
+			gm.logPass(logger, "The RITM has been created successfully. The success message is also displayed",driver);
 
 		}
 		else
