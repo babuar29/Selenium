@@ -71,6 +71,6 @@ public class Demo1 {
 		
 		System.out.println(max);
 		System.out.println(tempArray[alpb]);
-		
+		System.out.println(tempArray[alpb]);
 	} 
 }
